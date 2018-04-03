@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.palmdigital.calculator01.MainActivity">
+
+
+    <ImageButton
+        android:id="@+id/numberone"
+        android:layout_marginTop="230dp"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        app:srcCompat="@drawable/number1"
+        />
+
+    <ImageButton
+        android:id="@+id/numbertwo"
+        android:layout_width="64dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/numberone"
+        android:background="@null"
+        app:srcCompat="@drawable/number2" />
+
+    <ImageButton
+        android:id="@+id/numberthree"
+        android:layout_below="@id/numbertwo"
+        android:layout_marginTop="5dp"
+        android:layout_width="64dp"
+        android:layout_height="48dp"
+        android:background="@null"
+        app:srcCompat="@drawable/number3" />
+
+    <ImageButton
+        android:id="@+id/numberfour"
+        android:layout_width="64dp"
+        android:layout_marginTop="237dp"
+        android:layout_height="48dp"
+        android:layout_toRightOf="@id/numberone"
+        android:layout_marginLeft="15dp"
+        android:background="@null"
+        app:srcCompat="@drawable/number4"
+        />
+
+    <ImageButton
+        android:id="@+id/numberfive"
+        android:layout_width="64dp"
+        android:layout_marginTop="7.5dp"
+        android:layout_below="@id/numberfour"
+        android:layout_height="48dp"
+        android:layout_toRightOf="@id/numbertwo"
+        android:layout_marginLeft="15dp"
+        android:background="@null"
+        app:srcCompat="@drawable/number5"
+        />
+
+    <ImageButton
+        android:id="@+id/numbersix"
+        android:layout_width="64dp"
+        android:layout_marginTop="6dp"
+        android:layout_below="@id/numberfive"
+        android:layout_height="48dp"
+        android:layout_toRightOf="@id/numberthree"
+        android:layout_marginLeft="15dp"
+        android:background="@null"
+        app:srcCompat="@drawable/number6"
+        />
+
+    <ImageButton
+        android:id="@+id/numberseven"
+        android:layout_width="50dp"
+        android:layout_marginTop="237dp"
+        android:layout_height="48dp"
+        android:layout_toRightOf="@id/numberfour"
+        android:layout_marginLeft="15dp"
+        android:background="@null"
+        app:srcCompat="@drawable/number7"
+        />
+
+    <ImageButton
+        android:id="@+id/numbereight"
+        android:layout_width="50dp"
+        android:layout_below="@id/numberseven"
+        android:layout_marginTop="7.5dp"
+        android:layout_height="48dp"
+        android:layout_toRightOf="@id/numberfive"
+        android:layout_marginLeft="15dp"
+        android:background="@null"
+        app:srcCompat="@drawable/number8"
+        />
+
+    <ImageButton
+        android:id="@+id/numbernoine"
+        android:layout_width="50dp"
+        android:layout_below="@id/numbereight"
+        android:layout_marginTop="6dp"
+        android:layout_height="48dp"
+        android:layout_toRightOf="@id/numbersix"
+        android:layout_marginLeft="15dp"
+        android:background="@null"
+        app:srcCompat="@drawable/number9"
+        />
+
+    <ImageButton
+        android:id="@+id/numberzero"
+        android:layout_width="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/numbersix"
+        android:layout_toRightOf="@id/numberthree"
+        android:layout_marginLeft="22dp"
+        android:layout_height="48dp"
+        android:background="@null"
+        app:srcCompat="@drawable/number0"
+        />
+
+    <ImageButton
+        android:id="@+id/unitadd"
+        android:layout_width="50dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="180dp"
+        android:layout_above="@id/numberone"
+        android:layout_height="48dp"
+        android:background="@null"
+        app:srcCompat="@drawable/symbolplus"
+        />
+
+    <ImageButton
+        android:id="@+id/unitsub"
+        android:layout_width="50dp"
+        android:layout_toRightOf="@id/unitadd"
+        android:layout_above="@id/numberone"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="180dp"
+        android:layout_height="48dp"
+        android:background="@null"
+        app:srcCompat="@drawable/symbolsub"
+        />
+
+    <ImageButton
+        android:id="@+id/unitmult"
+        android:layout_width="50dp"
+        android:layout_toRightOf="@id/unitsub"
+        android:layout_above="@id/numberone"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="180dp"
+        android:layout_height="48dp"
+        android:background="@null"
+        app:srcCompat="@drawable/symbolmult"
+        />
+
+    <ImageButton
+        android:id="@+id/unitdiv"
+        android:layout_width="50dp"
+        android:layout_toRightOf="@id/unitmult"
+        android:layout_above="@id/numberone"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="180dp"
+        android:layout_height="48dp"
+        android:background="@null"
+        app:srcCompat="@drawable/symboldivide"
+        />
+
+    <ImageButton
+        android:id="@+id/unitexpnt"
+        android:layout_width="50dp"
+        android:layout_toRightOf="@id/unitdiv"
+        android:layout_above="@id/numberone"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="230dp"
+        android:layout_height="48dp"
+        android:background="@null"
+        app:srcCompat="@drawable/exponent"
+        />
+
+    <ImageButton
+        android:id="@+id/unitsqrt"
+        android:layout_width="50dp"
+        android:layout_below="@id/unitexpnt"
+        android:layout_toRightOf="@id/numberseven"
+        android:layout_marginLeft="15dp"
+        android:layout_height="50dp"
+        android:background="@null"
+        app:srcCompat="@drawable/symbolsqrt"
+        />
+
+    <TextView
+        android:id="@+id/input"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="70dp"
+        android:layout_above="@id/unitadd"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="30dp"
+        />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="13dp"
+        android:layout_below="@id/input"
+        />
+
+    <ImageButton
+        android:id="@+id/clear"
+        android:layout_width="64dp"
+        android:layout_below="@id/unitsqrt"
+        android:layout_toRightOf="@id/numbereight"
+        android:layout_marginLeft="15dp"
+        android:layout_height="64dp"
+        android:background="@null"
+        app:srcCompat="@drawable/clear"
+        />
+
+    <ImageButton
+        android:id="@+id/equals"
+        android:layout_width="64dp"
+        android:layout_below="@id/clear"
+        android:layout_toRightOf="@id/numbernoine"
+        android:layout_marginLeft="15dp"
+        android:layout_height="64dp"
+        android:background="@null"
+        app:srcCompat="@drawable/equals"
+        />
+
+    <ImageButton
+        android:id="@+id/unitbackspace"
+        android:layout_width="50dp"
+        android:layout_toRightOf="@id/unitdiv"
+        android:layout_above="@id/numberone"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="180dp"
+        android:layout_height="48dp"
+        android:background="@null"
+        app:srcCompat="@drawable/arrowleft"
+        />
+
+</RelativeLayout>

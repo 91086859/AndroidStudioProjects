@@ -27,12 +27,11 @@
         android:textAlignment="center"
         android:textSize="20sp" />
 
-    <ImageView
-        android:id="@+id/wakeupimg"
-        android:layout_width="match_parent"
+    <com.example.palmdigital.chooseyourownadventure_v01.GifImageView
+        android:id="@+id/Alarm"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/wakeup"
-        />
+        android:layout_centerInParent="true" />
 
     <Button
         android:id="@+id/button_restart1"

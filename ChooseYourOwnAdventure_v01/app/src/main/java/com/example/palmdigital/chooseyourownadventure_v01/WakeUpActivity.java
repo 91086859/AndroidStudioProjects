@@ -10,6 +10,7 @@ import android.widget.Button;
 public class WakeUpActivity extends AppCompatActivity implements View.OnClickListener {
 
     Button restartButton;
+    GifImageView alarmGif;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -17,6 +18,9 @@ public class WakeUpActivity extends AppCompatActivity implements View.OnClickLis
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         restartButton = findViewById(R.id.button_restart1);
         restartButton.setOnClickListener(this);
+
+        alarmGif = findViewById(R.id.Alarm);
+        alarmGif.setGifImageResource(R.drawable.alarmclock);
     }
 
     public void onClick(View view)

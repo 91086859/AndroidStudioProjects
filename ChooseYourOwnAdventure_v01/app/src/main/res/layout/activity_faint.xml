@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:id="@+id/faint_background"
     android:layout_height="match_parent"
     android:background="@android:color/darker_gray"
     android:orientation="vertical"
@@ -26,6 +27,13 @@
         android:text="You made a delicious soup! Yum! The end."
         android:textAlignment="center"
         android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/soupimg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/soup"
+        />
 
     <Button
         android:id="@+id/button_restart3"

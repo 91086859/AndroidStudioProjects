@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_green_dark"
+    android:background="@android:color/holo_red_light"
     android:orientation="vertical"
-    tools:context="com.example.palmdigital.chooseyourownadventure_v01.BackyardActivity">
+    tools:context="com.example.palmdigital.chooseyourownadventure_v01.BeginActivity">
 
     <TextView
         android:id="@+id/tv_title_1"
@@ -22,8 +22,8 @@
         android:id="@+id/tv_story_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
-        android:text="As you walk into the backyard a net scoops you up and a giant takes you to a boiling pot of water."
+        android:layout_marginTop="110dp"
+        android:text="One morning, the Tortoise woke up in a dream."
         android:textAlignment="center"
         android:textSize="20sp" />
 
@@ -31,16 +31,16 @@
         android:id="@+id/tv_option_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="As the man starts to prepare you a soup, do you...'Scream' or 'Faint'?"
+        android:textStyle="bold"
+        android:text="Would you like to 'wake up' or 'explore' the dream?"
         android:textAlignment="center"
-        android:textSize="20sp"
-        android:textStyle="bold" />
+        android:textSize="20sp" />
 
     <ImageView
-        android:id="@+id/pot_img"
+        android:id="@+id/tortoise"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/cauldron"
+        app:srcCompat="@drawable/tortoise"
         />
 
     <LinearLayout
@@ -49,19 +49,20 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/button_scream"
+            android:id="@+id/button_wake"
             android:layout_width="wrap_content"
             android:layout_height="100dp"
+            android:layout_marginTop="70dp"
             android:layout_marginLeft="70dp"
-            android:layout_marginTop="40dp"
-            android:text="Scream" />
+            android:text="Wake Up"
+            />
 
         <Button
-            android:id="@+id/button_faint"
+            android:id="@+id/button_explore"
             android:layout_width="wrap_content"
             android:layout_height="100dp"
-            android:layout_marginTop="40dp"
-            android:text="Faint" />
+            android:layout_marginTop="70dp"
+            android:text="Explore" />
     </LinearLayout>
 
 </LinearLayout>

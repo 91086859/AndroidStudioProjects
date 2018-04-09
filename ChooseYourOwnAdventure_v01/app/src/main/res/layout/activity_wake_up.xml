@@ -27,6 +27,13 @@
         android:textAlignment="center"
         android:textSize="20sp" />
 
+    <ImageView
+        android:id="@+id/wakeupimg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/wakeup"
+        />
+
     <Button
         android:id="@+id/button_restart1"
         android:layout_width="330dp"

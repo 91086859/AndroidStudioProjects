@@ -31,13 +31,15 @@
         android:id="@+id/Alarm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="-20dp"
+        android:layout_marginLeft="100dp"
         android:layout_centerInParent="true" />
 
     <Button
         android:id="@+id/button_restart1"
         android:layout_width="330dp"
         android:layout_height="100dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="10dp"
         android:text="Restart" />
 
 </LinearLayout>

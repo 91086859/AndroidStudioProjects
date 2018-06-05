@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/main"
+    android:layout_height="match_parent"
+    tools:context="kuhdeenhike.borderdefense.TitleScreen"
+    android:background="@drawable/sky"
+    >
+
+    <ImageView
+        android:id="@+id/wall"
+        android:layout_width="1100dp"
+        android:layout_height="922dp"
+        android:layout_marginTop="420dp"
+        app:srcCompat="@drawable/wall"
+        />
+
+    <ImageView
+        android:id="@+id/reticle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/reticle"
+        />
+
+    <Switch
+        android:id="@+id/zoomSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toogle Zoom"
+        />
+
+    <TextView
+        android:id="@+id/ammo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ammo: "
+        android:layout_marginTop="550dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="300dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_red_dark"
+        />
+
+    <ImageView
+        android:id="@+id/snoiper"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginEnd="300dp"
+        android:layout_marginTop="520dp"
+        android:background="@android:color/holo_green_dark"
+        app:srcCompat="@drawable/sniper" />
+
+    <ImageView
+        android:id="@+id/mp5"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginEnd="300dp"
+        android:layout_marginTop="465dp"
+        android:background="@android:color/holo_green_dark"
+        app:srcCompat="@drawable/mp5" />
+
+
+</RelativeLayout>
